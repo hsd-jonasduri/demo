@@ -7,4 +7,6 @@ Hypermedia & interaktive Systeme
 ---
 
 ### Demo Project
+[Visit site](https://eager-neumann-a7ea87.netlify.com)  
+
 This repository holds a small demo project that you can use to get familiar with HTML and CSS code and Microsofts Visual Studio Code Editor.

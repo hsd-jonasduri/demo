@@ -1,4 +1,41 @@
+:root {
+    --global-font-size: 16px;
+    --global-line-height: 1.4em;
+    --font-stack: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+    --mono-font-stack: Menlo,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New,monospace,serif;
+    --input-style: solid;
+    --global-line-height: 1.4em;
+    --global-space: 10px;
+    --background-color: #fff;
+    --page-width: 60em;
+    --font-color: #151515;
+    --invert-font-color: #fff;
+    --primary-color: #e60028;
+    --secondary-color: #727578;
+    --error-color: #e60028;
+    --progress-bar-background: #727578;
+    --progress-bar-fill: #151515;
+    --code-bg-color: #e8eff2;
+    --input-style: solid;
+    --display-h1-decoration: none;
+}
+
+body {
+    color: var(--font-color);
+}
+
 #container {
-    max-width: 960px;
+    max-width: var(--page-width);
     margin: 0 auto;
+}
+
+.hsd-primary {
+    color: var(--primary-color);
+}
+
+.course {
+    margin-top: 1em;
+}
+.course span {
+    font-weight: bold;
 }
